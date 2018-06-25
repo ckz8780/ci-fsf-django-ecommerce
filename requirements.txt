@@ -6,3 +6,4 @@ gunicorn==19.8.1
 psycopg2==2.7.5
 pytz==2018.4
 stripe==1.82.2
+whitenoise==3.3.1
