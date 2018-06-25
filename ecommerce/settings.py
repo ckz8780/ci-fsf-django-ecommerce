@@ -151,5 +151,8 @@ MEDIA_URL = '/media/'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
+# Change this if you want to send real emails instead of just logging them to the console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 STRIPE_SECRET = ''
 STRIPE_PUBLISHABLE = ''
